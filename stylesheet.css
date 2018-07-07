@@ -1,0 +1,39 @@
+body {
+    background-color:black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+h1{
+    color: orange;
+    font-size: 30px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}
+.pic1, .pic2, .pic3, .pic4{
+    border-radius: 50%;
+    height: 50px;
+    width: auto;
+}    
+
+.line{
+    width: 100px;
+}
+.nav{
+    padding: 30px;
+    display: inline-block;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30%;
+    flex-direction: column;
+   
+}
+
+.content{
+    display: inline;
+    top: 0%;  
+}
